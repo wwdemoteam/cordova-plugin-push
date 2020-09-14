@@ -117,6 +117,7 @@
     <header-file src="src/ios/PushPlugin.h"/>
 
     <framework src="PushKit.framework"/>
+    <framework src="CallKit.framework"/>
 
     <podspec>
       <!-- keep empty `config` object to prevent `cordova-common` install issues.-->
