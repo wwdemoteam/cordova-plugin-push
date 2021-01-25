@@ -121,8 +121,9 @@
     <framework src="PushKit.framework"/>
 
     <podspec>
-      <!-- keep empty `config` object to prevent `cordova-common` install issues.-->
-      <config></config>
+      <config>
+        <source url="https://cdn.cocoapods.org/"/>
+      </config>
       <pods use-frameworks="true">
         <pod name="Firebase/Messaging" spec="$IOS_FIREBASE_MESSAGING_VERSION" />
       </pods>
