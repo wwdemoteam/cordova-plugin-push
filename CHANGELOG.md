@@ -1,5 +1,43 @@
 # Change Log
 
+## 2.0.0
+
+**Overview:**
+
+This release contains breaking changes. One of these needed changes resolved issues of restoring the plugin from npm.
+
+With this breaking change, the `havesource-cordova-plugin-push` package name is no longer used. Please completely uninstall the old version before installing the new version. This will ensure that the correct package name `@havesource/cordova-plugin-push` is used.
+
+There is also an update to the installation requirements:
+
+| | Version |
+| - | - |
+| Cordova CLI | 10.0.0 |
+| Cordova Android | 8.0.0 |
+| **Cordova iOS** | **6.0.0** |
+| CocoaPods | 1.8.0 |
+
+**Breaking:**
+
+* breaking(ios): requirement bump [#80](https://github.com/havesource/cordova-plugin-push/pull/80)
+* breaking: fixed incorrect initial cordova-cli requirement [79333b2](https://github.com/havesource/cordova-plugin-push/commit/79333b25e1ff68fea377be499da91528c82fa21f)
+
+**Feature:**
+
+* feat(ios): force `cocoapods` cdn [#48](https://github.com/havesource/cordova-plugin-push/pull/48)
+* feat(ios): support `firebase/messaging` dep version override [#47](https://github.com/havesource/cordova-plugin-push/pull/47)
+
+**Chore:**
+
+* chore(`npm`): rebuilt `package-lock.json` [67e4e4b](https://github.com/havesource/cordova-plugin-push/commit/67e4e4ba185511e60b4d85cae882c41dae1c9cc0)
+* chore(`android`): remove duplicate code [#81](https://github.com/havesource/cordova-plugin-push/pull/81)
+* chore: bump dev dependencies [#79](https://github.com/havesource/cordova-plugin-push/pull/79)
+
+**CI & Docs:**
+
+* ci(gh-actions): bump dependencies [#78](https://github.com/havesource/cordova-plugin-push/pull/78)
+
+
 ## 1.0.0
 
 **Breaking:**
