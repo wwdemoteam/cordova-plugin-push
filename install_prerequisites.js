@@ -98,14 +98,14 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>outsystems-phonegap-plugin-push/package.json at master · ssardo/outsystems-phonegap-plugin-push</title>
+  <title>outsystems-phonegap-plugin-push/install_prerequisites.js at master · ssardo/outsystems-phonegap-plugin-push</title>
     <meta name="description" content="Contribute to ssardo/outsystems-phonegap-plugin-push development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
   <meta name="apple-itunes-app" content="app-id=1477376905" />
-    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/865ce4342cf14dd51200f300a73121a9c45b3624ed096787ee3acb96ea4e59c1/ssardo/outsystems-phonegap-plugin-push" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="outsystems-phonegap-plugin-push/package.json at master · ssardo/outsystems-phonegap-plugin-push" /><meta name="twitter:description" content="Contribute to ssardo/outsystems-phonegap-plugin-push development by creating an account on GitHub." />
-    <meta property="og:image" content="https://opengraph.githubassets.com/865ce4342cf14dd51200f300a73121a9c45b3624ed096787ee3acb96ea4e59c1/ssardo/outsystems-phonegap-plugin-push" /><meta property="og:image:alt" content="Contribute to ssardo/outsystems-phonegap-plugin-push development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="outsystems-phonegap-plugin-push/package.json at master · ssardo/outsystems-phonegap-plugin-push" /><meta property="og:url" content="https://github.com/ssardo/outsystems-phonegap-plugin-push" /><meta property="og:description" content="Contribute to ssardo/outsystems-phonegap-plugin-push development by creating an account on GitHub." />
+    <meta name="twitter:image:src" content="https://opengraph.githubassets.com/865ce4342cf14dd51200f300a73121a9c45b3624ed096787ee3acb96ea4e59c1/ssardo/outsystems-phonegap-plugin-push" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="outsystems-phonegap-plugin-push/install_prerequisites.js at master · ssardo/outsystems-phonegap-plugin-push" /><meta name="twitter:description" content="Contribute to ssardo/outsystems-phonegap-plugin-push development by creating an account on GitHub." />
+    <meta property="og:image" content="https://opengraph.githubassets.com/865ce4342cf14dd51200f300a73121a9c45b3624ed096787ee3acb96ea4e59c1/ssardo/outsystems-phonegap-plugin-push" /><meta property="og:image:alt" content="Contribute to ssardo/outsystems-phonegap-plugin-push development by creating an account on GitHub." /><meta property="og:image:width" content="1200" /><meta property="og:image:height" content="600" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="outsystems-phonegap-plugin-push/install_prerequisites.js at master · ssardo/outsystems-phonegap-plugin-push" /><meta property="og:url" content="https://github.com/ssardo/outsystems-phonegap-plugin-push" /><meta property="og:description" content="Contribute to ssardo/outsystems-phonegap-plugin-push development by creating an account on GitHub." />
     
 
 
@@ -113,11 +113,11 @@
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/11634590/ws?session=eyJ2IjoiVjMiLCJ1IjoxMTYzNDU5MCwicyI6NzkwMzQ4OTkzLCJjIjozNzQ2NjEzMDAxLCJ0IjoxNjM4MjA1MzAxfQ==--79dab4cc36b9d9c709ba9e4dccb2c8cb40060315dd60d63ba7100344e8a0ad50" data-refresh-url="/_alive" data-session-id="f66b407e072fe4ff207b371ac6e262d6ed0c76626e5f74af1ea96ba3ec5fea02">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/11634590/ws?session=eyJ2IjoiVjMiLCJ1IjoxMTYzNDU5MCwicyI6NzkwMzQ4OTkzLCJjIjoyMTU2MTY5NjMsInQiOjE2MzgyMDUyOTZ9--474be3c728e475bb5f3926db615a4ecbe0b3a2a458aafd09166392a24a7a929d" data-refresh-url="/_alive" data-session-id="f66b407e072fe4ff207b371ac6e262d6ed0c76626e5f74af1ea96ba3ec5fea02">
     <link rel="shared-web-socket-src" href="/assets-cdn/worker/socket-worker-5ba606f2.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="FEAA:9FB6:97931F:A76627:61A50770" data-pjax-transient="true" /><meta name="html-safe-nonce" content="7ce261e54513a4585b2bc492baf13c1c29bf4c76a8578e6f48b47ff5ac937572" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9zc2FyZG8vb3V0c3lzdGVtcy1waG9uZWdhcC1wbHVnaW4tcHVzaC90cmVlL21hc3Rlci9ob29rcy9vdXRzeXN0ZW1zIiwicmVxdWVzdF9pZCI6IkZFQUE6OUZCNjo5NzkzMUY6QTc2NjI3OjYxQTUwNzcwIiwidmlzaXRvcl9pZCI6IjExMDgxMjY3MzY3OTg0NDY2MjEiLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="8b54da12ced15e6d044d401f4360bd35e2b2ad1531512de0da1de760d749bb47" data-pjax-transient="true" />
+  <meta name="request-id" content="FEAA:9FB6:978FFB:A762C8:61A50760" data-pjax-transient="true" /><meta name="html-safe-nonce" content="7ce261e54513a4585b2bc492baf13c1c29bf4c76a8578e6f48b47ff5ac937572" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9zc2FyZG8vb3V0c3lzdGVtcy1waG9uZWdhcC1wbHVnaW4tcHVzaC90cmVlL21hc3Rlci9ob29rcy9vdXRzeXN0ZW1zIiwicmVxdWVzdF9pZCI6IkZFQUE6OUZCNjo5NzhGRkI6QTc2MkM4OjYxQTUwNzYwIiwidmlzaXRvcl9pZCI6IjExMDgxMjY3MzY3OTg0NDY2MjEiLCJyZWdpb25fZWRnZSI6ImZyYSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="8214d066b42bf0528dddc0070dfc68fa384a7e8f037b57d4b3b4263fd2e9ff61" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:431949365" data-pjax-transient>
 
@@ -156,7 +156,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="NDRjOWEwZmU1OTEwZGMyYjc4MTJmNzY0YjIyOTA1N2MxY2IxNmU5NzhmMzY0YzgwYTk2ZjI0OWMxYzM0MDIxMHx7InJlbW90ZV9hZGRyZXNzIjoiOTUuOTMuMTk5LjExIiwicmVxdWVzdF9pZCI6IkZFQUE6OUZCNjo5NzkzMUY6QTc2NjI3OjYxQTUwNzcwIiwidGltZXN0YW1wIjoxNjM4MjA1MzAxLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="ZDcxYzZiYzA0Mzk2MmQ2OGVkYTE2MTdmZjA0MDJlNDdiYzdkNWMzZTg2NmIwNDdlYjJlYTI0MzNhMDFlZTU1Y3x7InJlbW90ZV9hZGRyZXNzIjoiOTUuOTMuMTk5LjExIiwicmVxdWVzdF9pZCI6IkZFQUE6OUZCNjo5NzhGRkI6QTc2MkM4OjYxQTUwNzYwIiwidGltZXN0YW1wIjoxNjM4MjA1Mjk2LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
       <meta name="keyboard-shortcuts-preference" content="all">
       <script type="application/json" id="memex_keyboard_shortcuts_preference">"all"</script>
 
@@ -175,7 +175,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -216,7 +216,7 @@
   href="https://github.com/"
   data-hotkey="g d"
   aria-label="Homepage "
-  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="ddc95c12cc72e541433c0f1041bf1ce9405051a2b0a8db0e27c02a861a724502" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;}"
+  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="a64d9debd290b5b2c283ce39bc04bb06c8a0b73538ec74dadf5125298829fb4b" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;}"
 >
   <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
     <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
@@ -266,7 +266,7 @@
           spellcheck="false"
           autocomplete="off"
         >
-        <input type="hidden" value="1F/KJtbkL7sBRXBE2HjRKYsLz81GXNBVJsR8gFEH/EJzyhX/WhytFERLyG1+foTguQ6KohF1p1TDRJf9wBLluQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+        <input type="hidden" value="imfA5wpKs3T+fMX8+VMGP6PgTMR58FfdQK8jK2aIdiot8h8+hrIx27tyfdVfVVP2keUJqy7ZINylL8hW951v0Q==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
         <input type="hidden" class="js-site-search-type-field" name="type" >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" aria-hidden="true" class="mr-1 header-search-key-slash"><path fill="none" stroke="#979A9C" opacity=".4" d="M3.5.5h12c1.7 0 3 1.3 3 3v13c0 1.7-1.3 3-3 3h-12c-1.7 0-3-1.3-3-3v-13c0-1.7 1.3-3 3-3z"></path><path fill="#979A9C" d="M11.8 6L8 15.1h-.9L10.8 6h1z"></path></svg>
 
@@ -473,7 +473,7 @@
     <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:workspaces context:user" data-selected-links="/codespaces /codespaces" href="/codespaces">
       Codespaces
 </a>
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;ssardo&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="a33e263e7fbb7a9a2ecb4f574b747cc47856bec0da30c04113c51d755867a3c1" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;ssardo&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="0a54e97174a94f6f01fe2b65b953d8a3d44fd1959a758a1c77259a0f9cdd89f9" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade" href="/settings/profile">
       Settings
@@ -482,12 +482,12 @@
       <img class="avatar avatar-user" loading="lazy" decoding="async" src="https://avatars.githubusercontent.com/u/11634590?s=40&amp;v=4" width="20" height="20" alt="@ssardo" />
       ssardo
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="gQchV8pcGMhFkgTm2e4EcByI/njBBy8PHG39Ah8bSFMj2EWd5Dc4hix6cgDTbIGjuuJ/kbQcwfKzsqcLHHPWDA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="+ZmLg10CZ25+rVuu9TI8+nuwiqQJRxXNzZLIU1xOPt1bRu9Jc2lHIBdFLUj/sLkp3doLTXxc+zBiTZJaXyaggg==" />
       <button
         type="submit"
         class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade d-md-none btn-link d-block width-full text-left"
         style="padding-left: 2px;"
-        data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;sign out&quot;,&quot;label&quot;:&quot;icon:logout&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="18ff20c162eaf8452a23d2dad6de5ce742c5755237c8018f7bd8c1ce5d02c344" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;sign out&quot;,&quot;label&quot;:&quot;icon:logout&quot;}"
+        data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;sign out&quot;,&quot;label&quot;:&quot;icon:logout&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="8c2374633040fe235b9f9ba53783436921aafa6e60c2c9bc0df11b17d9a97227" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;sign out&quot;,&quot;label&quot;:&quot;icon:logout&quot;}"
       >
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-sign-out v-align-middle">
     <path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path>
@@ -504,7 +504,7 @@
   href="https://github.com/"
   data-hotkey="g d"
   aria-label="Homepage "
-  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="ddc95c12cc72e541433c0f1041bf1ce9405051a2b0a8db0e27c02a861a724502" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;}"
+  data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="a64d9debd290b5b2c283ce39bc04bb06c8a0b73538ec74dadf5125298829fb4b" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;go to dashboard&quot;,&quot;label&quot;:&quot;icon:logo&quot;}"
 >
   <svg height="32" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
     <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
@@ -520,7 +520,7 @@
       <notification-indicator
         class="js-socket-channel"
         data-test-selector="notifications-indicator"
-        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTE2MzQ1OTAiLCJ0IjoxNjM4MjA1MzAxfQ==--4bea2aaaa5135f25d2324450b57a817dc512ee654617f0899e142d820ef8cd45">
+        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MTE2MzQ1OTAiLCJ0IjoxNjM4MjA1Mjk2fQ==--12cdf47997fd35d3ff18dbb5d30442e9b72f41504f9deab6558d87744e704d83">
         <a href="/notifications"
           class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
           
@@ -543,7 +543,7 @@
   <summary
     class="Header-link"
     aria-label="Create new…"
-    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;create new&quot;,&quot;label&quot;:&quot;icon:add&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="34dc5847f30921732cc971eae9b0df2362485d1d86eca7a6a3e4bbc87eaf64f6" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;create new&quot;,&quot;label&quot;:&quot;icon:add&quot;}"
+    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;create new&quot;,&quot;label&quot;:&quot;icon:add&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="9e9a2267aa9cdabbdea88b02f74d0f37b8682ea7ae7deec5ab0e5c2289dc0fe2" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;create new&quot;,&quot;label&quot;:&quot;icon:add&quot;}"
   >
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-plus">
     <path fill-rule="evenodd" d="M7.75 2a.75.75 0 01.75.75V7h4.25a.75.75 0 110 1.5H8.5v4.25a.75.75 0 11-1.5 0V8.5H2.75a.75.75 0 010-1.5H7V2.75A.75.75 0 017.75 2z"></path>
@@ -581,7 +581,7 @@
   <summary
     class="Header-link"
     aria-label="View profile and more"
-    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;show menu&quot;,&quot;label&quot;:&quot;icon:avatar&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="0bd5b7bfc22a677b62305b6129ab2cbd683fbb461486d53c9cb8b20bf4725281" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;show menu&quot;,&quot;label&quot;:&quot;icon:avatar&quot;}"
+    data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;show menu&quot;,&quot;label&quot;:&quot;icon:avatar&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="dab824148dc86ca222082025c1ea5b5f6cb8438299001699ab1b75387a4bc51a" data-analytics-event="{&quot;category&quot;:&quot;Header&quot;,&quot;action&quot;:&quot;show menu&quot;,&quot;label&quot;:&quot;icon:avatar&quot;}"
   >
     <img src="https://avatars.githubusercontent.com/u/11634590?s=40&amp;v=4" alt="@ssardo" size="20" height="20" width="20" data-view-component="true" class="avatar avatar-small circle" />
       <span class="feature-preview-indicator js-feature-preview-indicator" style="top: 1px;" hidden></span>
@@ -655,14 +655,14 @@
   <details-dialog class="command-palette-details-dialog d-flex flex-column flex-justify-center height-fit">
     <command-palette
       class="command-palette color-bg-default rounded-3"
-      data-return-to=/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json
+      data-return-to=/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js
       data-user-id="11634590"
       >
-      <input type="hidden" value="evv2GjtrcNtQ+wxdQvwUgOVwu1hlmU9kH6OiPHqjD2hV97SE7lfhADJd2/tjADY5CmtTXOoVi1DBmHu55Yp2bw==" data-csrf="true" class="js-graphql-csrf" />
+      <input type="hidden" value="2qc+jVeFF0RnDZrllaDZFObuno55sj+CoSS6JUi9RRf1q3wTgrmGnwWrTUO0XPutCfV2ivY++7Z/H2Og15Q8EA==" data-csrf="true" class="js-graphql-csrf" />
       <iframe class="d-none js-command-palette-commands" sandbox="allow-scripts allow-same-origin" srcdoc="<script crossorigin=&quot;anonymous&quot; defer=&quot;defer&quot; integrity=&quot;sha512-2Jz3lq/Gk0f8RePMFf+bUCfw6LwZ3nXfh3AQmMFOUj5cIW/rCeZcWRFO/q0l00bbLMcdXkpDj6KvP9Ny2qh8QA==&quot; type=&quot;application/javascript&quot; src=&quot;https://github.githubassets.com/assets/command-runner-d89cf796.js&quot;></script>
 " aria-hidden="true" data-url="https://github.com"></iframe>
       <input type="hidden" name="color-mode-path" id="color-mode-path" value="/settings/appearance/color_mode" class="js-color-mode-path" autocomplete="off" />
-      <input type="hidden" value="4MlcfO69v6gzh/3wDAset0ldEZCimGCmatoRC3d+GVGPbgpiIGSKq6j4PdlGKV3AzDoks6JsW0qgaUTNMRrJMA==" data-csrf="true" class="js-color-mode-csrf" />
+      <input type="hidden" value="3fi9b7uxqiJCykITqCmQpsfbyxqjI2/CzBr4sSxGf8myX+txdWifIdm1gjriC9PRQrz+OaPXVC4Gqa13aiKvqA==" data-csrf="true" class="js-color-mode-csrf" />
 
         <command-palette-mode
           data-char="#"
@@ -1330,7 +1330,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="711fc9912414789fafd7482efe489b078c2bd35f73e38ca40169af8b773eeca6" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="rounded-right-0 btn-sm btn">
+      <summary data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="7e5b6a84dd21bd81109570178a8bb731f93f98f9e1473fa074c47363447d3fbd" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notification settings" data-view-component="true" class="rounded-right-0 btn-sm btn">
   
   
           <span data-menu-button>
@@ -1387,7 +1387,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="tGOO/ePHpi8SCWW2LbXt+TGfvketpSACtdntSk78zoWiQbrJS7R6I3bXcURKUYWl31XHMm7MxXKoIe+JTH1ong==" autocomplete="off" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="LsetpTRPSme7CIm8S+kdK6fT5BZ7ysYx/t1kPE7bTBc45ZmRnDyWa9/WnU4sDXV3SRmdY7ijI0HjJWb/TFrqDA==" autocomplete="off" />
 
                 <input type="hidden" name="repository_id" value="431949365">
 
@@ -1510,7 +1510,7 @@
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="OmXAkcRW3hJIItaC8IIKs03cFm8VQPWSfMuqxrRYkTcsR/SlbCUCHiz8wnCXZmLvoxZvGtYpEOJhM6gFttk3LA==" autocomplete="off" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="cI3ZdmsUCNyzWR9LZPKbpR5URnrju+S/DtPljhREbv9mr+1Cw2fU0NeHC7kDFvP58J4/DyDSAc8TK+dNFsXI5A==" autocomplete="off" />
 
               <input type="hidden" name="repository_id" value="431949365">
 
@@ -1676,9 +1676,9 @@
 
     <li>
           <div data-view-component="true" class="js-toggler-container js-social-container starring-container d-block">
-    <form class="starred js-social-form" action="/ssardo/outsystems-phonegap-plugin-push/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="MBrbglYHv7B5tEtrPVTmlCcopR4JjRs3sHjYIGYBdFGZNFNPFbxSZVzowOLdRI6SVgBViK7cRosdjcjlUCvdhQ==" autocomplete="off" />
+    <form class="starred js-social-form" action="/ssardo/outsystems-phonegap-plugin-push/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="SC2BOC1l2D7S5IdJgxVaHhEsvRZgVZn1pEkf/2tdH0XhAwn1bt416/e4DMBjBTIYYARNgMcExEkJvA86XXe2kQ==" autocomplete="off" />
       <input type="hidden" name="context" value="repository">
-      <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="f1afb1d0632f720a37c813aa9ee4fef00f0c6748d4fedf5c95a671c0a0a9be01" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository" type="submit" data-view-component="true" class="js-toggler-target btn-with-count btn-sm btn">
+      <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="bdc7fd9f69f8fd5a0c6a799db368c6b82008c3e77498cdb1bc46c64178b82d80" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar" aria-label="Unstar this repository" type="submit" data-view-component="true" class="js-toggler-target btn-with-count btn-sm btn">
   <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star-fill mr-1">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path>
 </svg>
@@ -1698,9 +1698,9 @@
           0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/ssardo/outsystems-phonegap-plugin-push/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="BieMfKV+FuQngF6ea9qm6Xs7D3XhfMF2B0OHfBeE7anFfB9mxgtyAQwbpFoZC6uAw88VtUCcef5XgH0qOHlcSw==" autocomplete="off" />
+    <form class="unstarred js-social-form" action="/ssardo/outsystems-phonegap-plugin-push/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="89GMDndFYZGtxU7h8mDCw++8JIUxnrcHj9RdFusZFM4wih8UFDAFdIZetCWAsc+qV0g+RZB+D4/fF6dAxOSlLA==" autocomplete="off" />
       <input type="hidden" name="context" value="repository">
-      <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="5a06ccdf2cd19bfc1dfdd389dba00122b69b3ffa47606a31f340b48d6ba198a5" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository" type="submit" data-view-component="true" class="js-toggler-target btn-with-count btn-sm btn">
+      <button data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="903e1fc1de65166eee875de8965b55caa97fc5430b22e92a765f773e10a4675b" data-ga-click="Repository, click star button, action:blob#show; text:Star" aria-label="Star this repository" type="submit" data-view-component="true" class="js-toggler-target btn-with-count btn-sm btn">
   <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-star mr-1">
     <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path>
 </svg>
@@ -1925,7 +1925,7 @@
 
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/ssardo/outsystems-phonegap-plugin-push/blob/27fa29219f89d0f94711848d976c0c83bf78c550/hooks/outsystems/package.json">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/ssardo/outsystems-phonegap-plugin-push/blob/27fa29219f89d0f94711848d976c0c83bf78c550/hooks/outsystems/install_prerequisites.js">Permalink</a>
 
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
@@ -1996,10 +1996,10 @@
             </template>
 
               <template data-target="ref-selector.noMatchTemplate">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/ssardo/outsystems-phonegap-plugin-push/branches" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="jwe/9kTsOEP8d85/N6OzKsGAAQMaRQljUal+Dqs0EWDEjeiWZK4g4iMKlcyPHUf6cCY9QBFCvjbr70Q1518S8g==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/ssardo/outsystems-phonegap-plugin-push/branches" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="SkiiKa2ADcur1xp/7eOCbDZeFrGNi1uPn8AeHUHYnW4BwvVJjcIVanSqQcxVXXa8h/gq8oaM7NolhiQmDbOe/A==" />
       <input type="hidden" name="name" value="{{ refName }}">
       <input type="hidden" name="branch"  value="master">
-      <input type="hidden" name="path_binary" value="aG9va3Mvb3V0c3lzdGVtcy9wYWNrYWdlLmpzb24=">
+      <input type="hidden" name="path_binary" value="aG9va3Mvb3V0c3lzdGVtcy9pbnN0YWxsX3ByZXJlcXVpc2l0ZXMuanM=">
 
       <button class="SelectMenu-item wb-break-word" type="submit" role="menuitem" data-index="{{ index }}">
         <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-branch SelectMenu-icon flex-self-baseline">
@@ -2027,7 +2027,7 @@
             </div>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/{{ urlEncodedRefName }}/hooks/outsystems/package.json" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/{{ urlEncodedRefName }}/hooks/outsystems/install_prerequisites.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2067,7 +2067,7 @@
             </template>
 
               <template data-target="ref-selector.itemTemplate">
-  <a href="https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/{{ urlEncodedRefName }}/hooks/outsystems/package.json" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+  <a href="https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/{{ urlEncodedRefName }}/hooks/outsystems/install_prerequisites.js" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
     <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check">
     <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path>
 </svg>
@@ -2101,7 +2101,48 @@
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/ssardo/outsystems-phonegap-plugin-push"><span>outsystems-phonegap-plugin-push</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/ssardo/outsystems-phonegap-plugin-push/tree/master/hooks"><span>hooks</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/ssardo/outsystems-phonegap-plugin-push/tree/master/hooks/outsystems"><span>outsystems</span></a></span><span class="separator">/</span><strong class="final-path">package.json</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/ssardo/outsystems-phonegap-plugin-push"><span>outsystems-phonegap-plugin-push</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/ssardo/outsystems-phonegap-plugin-push/tree/master/hooks"><span>hooks</span></a></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="#repo-content-pjax-container" href="/ssardo/outsystems-phonegap-plugin-push/tree/master/hooks/outsystems"><span>outsystems</span></a></span><span class="separator">/</span><strong class="final-path">install_prerequisites.js</strong>
+          <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
+  <summary aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:431949365,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;JavaScript&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="3ee095b148c9894c78747b5ba61d45543b8209a74885636a919ecbd4d9d259a8" data-view-component="true" class="Link--secondary css-truncate btn-link">
+  
+  
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
+    <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
+</svg>
+    <span data-menu-button>Jump to</span>
+    <span class="dropdown-caret"></span>
+
+  
+
+</summary>  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Code definitions</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="jumpto-symbol-select-menu">
+          <svg aria-label="Close menu" role="img" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x">
+    <path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path>
+</svg>
+        </button>
+      </header>
+      <div class="SelectMenu-list">
+          <div class="SelectMenu-blankslate">
+            <p class="mb-0 color-fg-muted">
+              No definitions found in this file.
+            </p>
+          </div>
+        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+        </div>
+      </div>
+      <footer class="SelectMenu-footer">
+        <div class="d-flex flex-justify-between">
+          Code navigation not available for this commit
+          <svg class="octicon octicon-dot-fill text-light-gray" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+        </div>
+      </footer>
+    </div>
+  </details-menu>
+</details>
+
       </h2>
       <a href="/ssardo/outsystems-phonegap-plugin-push/find/master"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -2122,7 +2163,7 @@
 </summary>
   <div data-view-component="true">          <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="3e1eb6769888e0697e43490f3d2295f86972b133c4863b97ccf522de9cbc295e" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/ssardo/outsystems-phonegap-plugin-push/find/master">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="600842e139815b96c100c5e6ea06f1c30cb97972c5624e208b7d45b8caf776f5" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/ssardo/outsystems-phonegap-plugin-push/find/master">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small color-fg-muted" aria-hidden="true">T</span>
 </a>            </li>
@@ -2138,15 +2179,27 @@
   
 
 </button>            </li>
+            <li data-toggle-for="blob-more-options-details">
+              <button data-toggle-for="jumpto-symbol-select-menu" type="button" data-view-component="true" class="dropdown-item btn-link">
+  
+  
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Go to definition</span>
+                  <span class="text-small color-fg-muted" aria-hidden="true">R</span>
+                </span>
+
+  
+
+</button>            </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="hooks/outsystems/package.json" data-view-component="true" class="dropdown-item cursor-pointer">
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy path" value="hooks/outsystems/install_prerequisites.js" data-view-component="true" class="dropdown-item cursor-pointer">
     
                 Copy path
 
 </clipboard-copy>            </li>
             <li>
-              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/27fa29219f89d0f94711848d976c0c83bf78c550/hooks/outsystems/package.json" data-view-component="true" class="dropdown-item cursor-pointer">
+              <clipboard-copy data-toggle-for="blob-more-options-details" aria-label="Copy permalink" value="https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/27fa29219f89d0f94711848d976c0c83bf78c550/hooks/outsystems/install_prerequisites.js" data-view-component="true" class="dropdown-item cursor-pointer">
     
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
@@ -2161,7 +2214,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/ssardo/outsystems-phonegap-plugin-push/contributors/master/hooks/outsystems/package.json" class="commit-loader">
+      <include-fragment src="/ssardo/outsystems-phonegap-plugin-push/contributors/master/hooks/outsystems/install_prerequisites.js" class="commit-loader">
         <div class="Box-header d-flex flex-items-center">
           <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
           <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -2195,22 +2248,22 @@
 
       <span class="file-mode" title="File mode">executable file</span>
       <span class="file-info-divider"></span>
-      5 lines (5 sloc)
+      27 lines (22 sloc)
       <span class="file-info-divider"></span>
-    62 Bytes
+    757 Bytes
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between hide-sm hide-md">
       
 
     <div class="BtnGroup">
-      <a href="/ssardo/outsystems-phonegap-plugin-push/raw/master/hooks/outsystems/package.json" id="raw-url" data-view-component="true" class="btn-sm btn BtnGroup-item">
+      <a href="/ssardo/outsystems-phonegap-plugin-push/raw/master/hooks/outsystems/install_prerequisites.js" id="raw-url" data-view-component="true" class="btn-sm btn BtnGroup-item">
   
   Raw
   
 
 </a>
-        <a href="/ssardo/outsystems-phonegap-plugin-push/blame/master/hooks/outsystems/package.json" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
+        <a href="/ssardo/outsystems-phonegap-plugin-push/blame/master/hooks/outsystems/install_prerequisites.js" data-hotkey="b" data-view-component="true" class="js-update-url-with-hash btn-sm btn BtnGroup-item">
   
   Blame
   
@@ -2221,7 +2274,7 @@
     <div>
           <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
              data-platforms="windows,mac"
-             href="x-github-client://openRepo/https://github.com/ssardo/outsystems-phonegap-plugin-push?branch=master&amp;filepath=hooks%2Foutsystems%2Fpackage.json"
+             href="x-github-client://openRepo/https://github.com/ssardo/outsystems-phonegap-plugin-push?branch=master&amp;filepath=hooks%2Foutsystems%2Finstall_prerequisites.js"
              aria-label="Open this file in GitHub Desktop"
              data-ga-click="Repository, open with desktop">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-desktop">
@@ -2229,11 +2282,11 @@
 </svg>
           </a>
 
-        <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/ssardo/outsystems-phonegap-plugin-push/raw/master/hooks/outsystems/package.json" data-action="click:remote-clipboard-copy#remoteCopy">
+        <remote-clipboard-copy class="d-inline-block btn-octicon" style="height: 26px" data-src="/ssardo/outsystems-phonegap-plugin-push/raw/master/hooks/outsystems/install_prerequisites.js" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
 
-  <span data-target="remote-clipboard-copy.idle">            <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="c665078605c70807ba8a8419cbe5d08639c072b0438d872f2a0a7d7da75d1313" aria-label="Copy raw contents">
+  <span data-target="remote-clipboard-copy.idle">            <span class="tooltipped tooltipped-nw cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="f1fd012e391b7c668f0f3b1cbd75ccbcccdfbdd74957323cfcc21f3820b2c50d" aria-label="Copy raw contents">
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy">
     <path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path>
 </svg>
@@ -2259,7 +2312,7 @@
             </span>
 </span>
 </remote-clipboard-copy>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/ssardo/outsystems-phonegap-plugin-push/edit/master/hooks/outsystems/package.json" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="UtkNzQTHB1OasG3YqynJATBKvtNYIWYopK+PJBLZO9185QZ+s/xEtu9nO/iI+Ni0+bRiSC1ExkjPedn+/6jwUA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/ssardo/outsystems-phonegap-plugin-push/edit/master/hooks/outsystems/install_prerequisites.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="VW2zqFCjFUW5gnbBi9vLuGm7ZvlI4ovJNCQVI50qGH+OhJICaikNd166/Vbkv4v8j+531aVHgPn8ku9RxBvFxw==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit this file" data-hotkey="e" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-pencil">
@@ -2267,7 +2320,7 @@
 </svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/ssardo/outsystems-phonegap-plugin-push/delete/master/hooks/outsystems/package.json" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="3WF5lNlemtXpn9ArEo2He1QUcH4c1Px8ZQeRO12Nt2GGCOQoXoHM0srQF+IPE22XSs3gPzWuA0b5L09fYzaGTw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/ssardo/outsystems-phonegap-plugin-push/delete/master/hooks/outsystems/install_prerequisites.js" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="lunXpom9C1syvt/+/zQ7J3Pfs7IylkBc4784ClbYuMyxAzeJ3rHEAntcvDy38z15otDUJixWQaL4hUxyTIhT4g==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-trash">
@@ -2289,21 +2342,21 @@
             <li>
                 <a class="dropdown-item tooltipped tooltipped-nw js-remove-unless-platform"
                    data-platforms="windows,mac"
-                   href="x-github-client://openRepo/https://github.com/ssardo/outsystems-phonegap-plugin-push?branch=master&amp;filepath=hooks%2Foutsystems%2Fpackage.json"
+                   href="x-github-client://openRepo/https://github.com/ssardo/outsystems-phonegap-plugin-push?branch=master&amp;filepath=hooks%2Foutsystems%2Finstall_prerequisites.js"
                    data-ga-click="Repository, open with desktop">
                   Open with Desktop
                 </a>
             </li>
           <li>
-            <a class="dropdown-item" href="/ssardo/outsystems-phonegap-plugin-push/raw/master/hooks/outsystems/package.json">
+            <a class="dropdown-item" href="/ssardo/outsystems-phonegap-plugin-push/raw/master/hooks/outsystems/install_prerequisites.js">
               View raw
             </a>
           </li>
             <li>
-              <remote-clipboard-copy class="dropdown-item" data-src="/ssardo/outsystems-phonegap-plugin-push/raw/master/hooks/outsystems/package.json" data-action="click:remote-clipboard-copy#remoteCopy">
+              <remote-clipboard-copy class="dropdown-item" data-src="/ssardo/outsystems-phonegap-plugin-push/raw/master/hooks/outsystems/install_prerequisites.js" data-action="click:remote-clipboard-copy#remoteCopy">
   
 
-  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="c665078605c70807ba8a8419cbe5d08639c072b0438d872f2a0a7d7da75d1313">
+  <span data-target="remote-clipboard-copy.idle">                  <span class="cursor-pointer" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;COPY_RAW_CONTENTS_BUTTON&quot;,&quot;repository_id&quot;:431949365,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="f1fd012e391b7c668f0f3b1cbd75ccbcccdfbdd74957323cfcc21f3820b2c50d">
                     Copy raw contents
 </span></span>
   <span data-target="remote-clipboard-copy.fetching" hidden="hidden">                  Copy raw contents
@@ -2329,17 +2382,17 @@
 </span>
 </remote-clipboard-copy>            </li>
             <li>
-              <a class="dropdown-item" href="/ssardo/outsystems-phonegap-plugin-push/blame/master/hooks/outsystems/package.json">
+              <a class="dropdown-item" href="/ssardo/outsystems-phonegap-plugin-push/blame/master/hooks/outsystems/install_prerequisites.js">
                 View blame
               </a>
             </li>
 
               <li class="dropdown-divider" role="none"></li>
               <li>
-                <a class="dropdown-item" href="/ssardo/outsystems-phonegap-plugin-push/edit/master/hooks/outsystems/package.json">Edit file</a>
+                <a class="dropdown-item" href="/ssardo/outsystems-phonegap-plugin-push/edit/master/hooks/outsystems/install_prerequisites.js">Edit file</a>
               </li>
               <li>
-                <a class="dropdown-item menu-item-danger" href="/ssardo/outsystems-phonegap-plugin-push/delete/master/hooks/outsystems/package.json">Delete file</a>
+                <a class="dropdown-item menu-item-danger" href="/ssardo/outsystems-phonegap-plugin-push/delete/master/hooks/outsystems/install_prerequisites.js">Delete file</a>
               </li>
         </ul>
       </details>
@@ -2348,7 +2401,7 @@
 
 
       
-  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-json  gist-border-0">
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-javascript  gist-border-0">
 
       
 <div class="js-check-bidi blob-code-content">
@@ -2379,26 +2432,119 @@
 </svg>
 </span></template>
 
-  <table class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="4" data-paste-markdown-skip data-tagsearch-lang="JSON" data-tagsearch-path="hooks/outsystems/package.json">
+  <table class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="2" data-paste-markdown-skip data-tagsearch-lang="JavaScript" data-tagsearch-path="hooks/outsystems/install_prerequisites.js">
         <tr>
           <td id="L1" class="blob-num js-line-number js-code-nav-line-number" data-line-number="1"></td>
-          <td id="LC1" class="blob-code blob-code-inner js-file-line">{</td>
+          <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-k>var</span> <span class=pl-s1>utils</span> <span class=pl-c1>=</span> <span class=pl-en>require</span><span class=pl-kos>(</span><span class=pl-s>&#39;./utilities&#39;</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L2" class="blob-num js-line-number js-code-nav-line-number" data-line-number="2"></td>
-          <td id="LC2" class="blob-code blob-code-inner js-file-line">    <span class="pl-ent">&quot;dependencies&quot;</span>: {</td>
+          <td id="LC2" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L3" class="blob-num js-line-number js-code-nav-line-number" data-line-number="3"></td>
-          <td id="LC3" class="blob-code blob-code-inner js-file-line">        <span class="pl-ent">&quot;adm-zip&quot;</span>: <span class="pl-s"><span class="pl-pds">&quot;</span>&gt;=0.4.11<span class="pl-pds">&quot;</span></span></td>
+          <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-smi>console</span><span class=pl-kos>.</span><span class=pl-en>log</span><span class=pl-kos>(</span><span class=pl-s>&quot;Running hook to install push notifications pre-requisites&quot;</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
         </tr>
         <tr>
           <td id="L4" class="blob-num js-line-number js-code-nav-line-number" data-line-number="4"></td>
-          <td id="LC4" class="blob-code blob-code-inner js-file-line">    }</td>
+          <td id="LC4" class="blob-code blob-code-inner js-file-line">
+</td>
         </tr>
         <tr>
           <td id="L5" class="blob-num js-line-number js-code-nav-line-number" data-line-number="5"></td>
-          <td id="LC5" class="blob-code blob-code-inner js-file-line">}</td>
+          <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-smi>module</span><span class=pl-kos>.</span><span class=pl-en>exports</span> <span class=pl-c1>=</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>context</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        </tr>
+        <tr>
+          <td id="L6" class="blob-num js-line-number js-code-nav-line-number" data-line-number="6"></td>
+          <td id="LC6" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>var</span> <span class=pl-s1>cordovaAbove8</span> <span class=pl-c1>=</span> <span class=pl-s1>utils</span><span class=pl-kos>.</span><span class=pl-en>isCordovaAbove</span><span class=pl-kos>(</span><span class=pl-s1>context</span><span class=pl-kos>,</span> <span class=pl-c1>8</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+        </tr>
+        <tr>
+          <td id="L7" class="blob-num js-line-number js-code-nav-line-number" data-line-number="7"></td>
+          <td id="LC7" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>cordovaAbove8</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        </tr>
+        <tr>
+          <td id="L8" class="blob-num js-line-number js-code-nav-line-number" data-line-number="8"></td>
+          <td id="LC8" class="blob-code blob-code-inner js-file-line">      <span class=pl-k>var</span> <span class=pl-s1>child_process</span> <span class=pl-c1>=</span> <span class=pl-en>require</span><span class=pl-kos>(</span><span class=pl-s>&#39;child_process&#39;</span><span class=pl-kos>)</span><span class=pl-kos>,</span></td>
+        </tr>
+        <tr>
+          <td id="L9" class="blob-num js-line-number js-code-nav-line-number" data-line-number="9"></td>
+          <td id="LC9" class="blob-code blob-code-inner js-file-line">      <span class=pl-s1>deferral</span> <span class=pl-c1>=</span> <span class=pl-en>require</span><span class=pl-kos>(</span><span class=pl-s>&#39;q&#39;</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>defer</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+        </tr>
+        <tr>
+          <td id="L10" class="blob-num js-line-number js-code-nav-line-number" data-line-number="10"></td>
+          <td id="LC10" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span> <span class=pl-k>else</span> <span class=pl-kos>{</span></td>
+        </tr>
+        <tr>
+          <td id="L11" class="blob-num js-line-number js-code-nav-line-number" data-line-number="11"></td>
+          <td id="LC11" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>var</span> <span class=pl-s1>child_process</span> <span class=pl-c1>=</span> <span class=pl-s1>context</span><span class=pl-kos>.</span><span class=pl-en>requireCordovaModule</span><span class=pl-kos>(</span><span class=pl-s>&#39;child_process&#39;</span><span class=pl-kos>)</span><span class=pl-kos>,</span></td>
+        </tr>
+        <tr>
+          <td id="L12" class="blob-num js-line-number js-code-nav-line-number" data-line-number="12"></td>
+          <td id="LC12" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>deferral</span> <span class=pl-c1>=</span> <span class=pl-s1>context</span><span class=pl-kos>.</span><span class=pl-en>requireCordovaModule</span><span class=pl-kos>(</span><span class=pl-s>&#39;q&#39;</span><span class=pl-kos>)</span><span class=pl-kos>.</span><span class=pl-en>defer</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+        </tr>
+        <tr>
+          <td id="L13" class="blob-num js-line-number js-code-nav-line-number" data-line-number="13"></td>
+          <td id="LC13" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span></td>
+        </tr>
+        <tr>
+          <td id="L14" class="blob-num js-line-number js-code-nav-line-number" data-line-number="14"></td>
+          <td id="LC14" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L15" class="blob-num js-line-number js-code-nav-line-number" data-line-number="15"></td>
+          <td id="LC15" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L16" class="blob-num js-line-number js-code-nav-line-number" data-line-number="16"></td>
+          <td id="LC16" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>var</span> <span class=pl-s1>output</span> <span class=pl-c1>=</span> <span class=pl-s1>child_process</span><span class=pl-kos>.</span><span class=pl-en>exec</span><span class=pl-kos>(</span><span class=pl-s>&#39;npm install&#39;</span><span class=pl-kos>,</span> <span class=pl-kos>{</span><span class=pl-c1>cwd</span>: <span class=pl-s1>__dirname</span><span class=pl-kos>}</span><span class=pl-kos>,</span> <span class=pl-k>function</span> <span class=pl-kos>(</span><span class=pl-s1>error</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        </tr>
+        <tr>
+          <td id="L17" class="blob-num js-line-number js-code-nav-line-number" data-line-number="17"></td>
+          <td id="LC17" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>if</span> <span class=pl-kos>(</span><span class=pl-s1>error</span> <span class=pl-c1>!==</span> <span class=pl-c1>null</span><span class=pl-kos>)</span> <span class=pl-kos>{</span></td>
+        </tr>
+        <tr>
+          <td id="L18" class="blob-num js-line-number js-code-nav-line-number" data-line-number="18"></td>
+          <td id="LC18" class="blob-code blob-code-inner js-file-line">      <span class=pl-smi>console</span><span class=pl-kos>.</span><span class=pl-en>log</span><span class=pl-kos>(</span><span class=pl-s>&#39;exec error: &#39;</span> <span class=pl-c1>+</span> <span class=pl-s1>error</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+        </tr>
+        <tr>
+          <td id="L19" class="blob-num js-line-number js-code-nav-line-number" data-line-number="19"></td>
+          <td id="LC19" class="blob-code blob-code-inner js-file-line">      <span class=pl-s1>deferral</span><span class=pl-kos>.</span><span class=pl-en>reject</span><span class=pl-kos>(</span><span class=pl-s>&#39;npm installation failed&#39;</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+        </tr>
+        <tr>
+          <td id="L20" class="blob-num js-line-number js-code-nav-line-number" data-line-number="20"></td>
+          <td id="LC20" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
+        </tr>
+        <tr>
+          <td id="L21" class="blob-num js-line-number js-code-nav-line-number" data-line-number="21"></td>
+          <td id="LC21" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>else</span> <span class=pl-kos>{</span></td>
+        </tr>
+        <tr>
+          <td id="L22" class="blob-num js-line-number js-code-nav-line-number" data-line-number="22"></td>
+          <td id="LC22" class="blob-code blob-code-inner js-file-line">      <span class=pl-s1>deferral</span><span class=pl-kos>.</span><span class=pl-en>resolve</span><span class=pl-kos>(</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+        </tr>
+        <tr>
+          <td id="L23" class="blob-num js-line-number js-code-nav-line-number" data-line-number="23"></td>
+          <td id="LC23" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>}</span></td>
+        </tr>
+        <tr>
+          <td id="L24" class="blob-num js-line-number js-code-nav-line-number" data-line-number="24"></td>
+          <td id="LC24" class="blob-code blob-code-inner js-file-line">  <span class=pl-kos>}</span><span class=pl-kos>)</span><span class=pl-kos>;</span></td>
+        </tr>
+        <tr>
+          <td id="L25" class="blob-num js-line-number js-code-nav-line-number" data-line-number="25"></td>
+          <td id="LC25" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="L26" class="blob-num js-line-number js-code-nav-line-number" data-line-number="26"></td>
+          <td id="LC26" class="blob-code blob-code-inner js-file-line">  <span class=pl-k>return</span> <span class=pl-s1>deferral</span><span class=pl-kos>.</span><span class=pl-c1>promise</span><span class=pl-kos>;</span></td>
+        </tr>
+        <tr>
+          <td id="L27" class="blob-num js-line-number js-code-nav-line-number" data-line-number="27"></td>
+          <td id="LC27" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>}</span><span class=pl-kos>;</span></td>
         </tr>
   </table>
 </div>
@@ -2424,7 +2570,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/ssardo/outsystems-phonegap-plugin-push/blame/27fa29219f89d0f94711848d976c0c83bf78c550/hooks/outsystems/package.json">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/ssardo/outsystems-phonegap-plugin-push/blame/27fa29219f89d0f94711848d976c0c83bf78c550/hooks/outsystems/install_prerequisites.js">View git blame</a></li>
       </ul>
     </details-menu>
   </details>
@@ -2449,6 +2595,16 @@
 </button>
 </form>    </details-dialog>
   </details>
+
+    <div class="Popover anim-scale-in js-tagsearch-popover"
+     hidden
+     data-tagsearch-url="/ssardo/outsystems-phonegap-plugin-push/find-definition"
+     data-tagsearch-ref="master">
+  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
+    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
+    </div>
+  </div>
+</div>
 
 
 </div>
@@ -2479,16 +2635,16 @@
       </li>
     </ul>
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-8 flex-justify-start flex-lg-justify-between mb-2 mb-lg-0">
-        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="d27f6d6c15c7bcbf1da2c692f7f7bc845d8b7b09a98680f7723501f79940d3ca" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}">Terms</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="d54310f399d0c05634610d3b9528f41b89d961269e51b1f6ef1da1c92da2e20f" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}">Privacy</a></li>
-        <li class="mr-3 mr-lg-0"><a data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="055552a3d02daa298efcdb9a0090893ad6b72d9d63a75f3b41a9c2b276806e08" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security">Security</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="03efac2d16a16ff19cff124f29e961cfea92e6eabf78b6f6e2d5afc22328e3a7" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}">Status</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-terms-of-service" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="1be75acb3537f6d8f40d906d1e927942667c620f63bf94c3edb893baa24e02c5" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to terms&quot;,&quot;label&quot;:&quot;text:terms&quot;}">Terms</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com/en/github/site-policy/github-privacy-statement" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="842af53cb06fb30a3304956ca4ed1494153437f87bed99f61a5cf25e445ddcaa" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to privacy&quot;,&quot;label&quot;:&quot;text:privacy&quot;}">Privacy</a></li>
+        <li class="mr-3 mr-lg-0"><a data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="5635c68b8d3012aeca95bfee680da3a649c4db2f9580abb3edae82a60067ff11" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to security&quot;,&quot;label&quot;:&quot;text:security&quot;}" href="https://github.com/security">Security</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://www.githubstatus.com/" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="6b2d850869fd704521db710dfa20eaca92aa8d18b4bacab6fb138361d0ba9c36" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to status&quot;,&quot;label&quot;:&quot;text:status&quot;}">Status</a></li>
         <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to help, text:Docs" href="https://docs.github.com">Docs</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://support.github.com?tags=dotcom-footer" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="ab85279e0b241c6b0738dc90961b0ac8dcf7e0a3432c7f6c3287e0768485cf0e" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}">Contact GitHub</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="3f21b6d88859ce6fccc964a78d52900103f1abd501c02c0695838be08487d218" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;}">Pricing</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="bd07985492d316bad0b86ca5cf7d9104622c98c206dd0446107f3fdc65aa17d7" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;}">API</a></li>
-      <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="63ff0c6bde0724bd2e0284bdb8094d2217b0d6ce2f28e657558c804652715d87" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;}">Training</a></li>
-        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/package.json&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="ef212241831a85b44ac3ccd8611852e5e9991bc7102d923a8d7ce3d4f8f76074" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;}">Blog</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://support.github.com?tags=dotcom-footer" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="da543bc5adc06afcee82f9f8c3c6a911c5cf907638d71044b6197570f342c34f" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to contact&quot;,&quot;label&quot;:&quot;text:contact&quot;}">Contact GitHub</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="01563badb4e4ab2ebcdfe69fdca309827ce99feedb0126c31ed4f31e59a0c3e3" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to Pricing&quot;,&quot;label&quot;:&quot;text:Pricing&quot;}">Pricing</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="635da2fd7dcc3b46ebce37e9520ab4818a2dd2185f8f8fc3e75bc44aa213700e" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to api&quot;,&quot;label&quot;:&quot;text:api&quot;}">API</a></li>
+      <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="a6fc32101065cbaa6d282614e477481e8f93fec70c5cc32b4e6c8a85645f4392" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to training&quot;,&quot;label&quot;:&quot;text:training&quot;}">Training</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-hydro-click="{&quot;event_type&quot;:&quot;analytics.event&quot;,&quot;payload&quot;:{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;,&quot;originating_url&quot;:&quot;https://github.com/ssardo/outsystems-phonegap-plugin-push/blob/master/hooks/outsystems/install_prerequisites.js&quot;,&quot;user_id&quot;:11634590}}" data-hydro-click-hmac="6b04f670049766424458c08864561651099babfb38975fcf03341bf8325b25fb" data-analytics-event="{&quot;category&quot;:&quot;Footer&quot;,&quot;action&quot;:&quot;go to blog&quot;,&quot;label&quot;:&quot;text:blog&quot;}">Blog</a></li>
         <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
     </ul>
   </div>
