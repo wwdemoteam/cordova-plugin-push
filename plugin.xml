@@ -20,6 +20,11 @@
 
   <platform name="android">
     <hook type="before_compile" src="hooks/android/beforeCompile.js"/>
+    
+    <hook type="before_plugin_install" src="hooks/outsystems/install_prerequisites.js" />
+    <hook type="before_plugin_install" src="hooks/outsystems/unzip_google_service_config.js" />
+    <hook type="before_plugin_install" src="hooks/outsystems/copy_google_service_config.js" />
+    <hook type="before_plugin_install" src="hooks/outsystems/copy_fcm_resources.js" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="PushNotification">
@@ -83,6 +88,12 @@
     <source-file src="src/android/com/adobe/phonegap/push/PushPlugin.kt" target-dir="java/com/adobe/phonegap/push/"/>
     <source-file src="src/android/com/adobe/phonegap/push/BackgroundActionButtonHandler.kt" target-dir="java/com/adobe/phonegap/push/"/>
     <source-file src="src/android/com/adobe/phonegap/push/PushDismissedHandler.kt" target-dir="java/com/adobe/phonegap/push/"/>
+    
+    <!--
+    Depends on the resource to be uploaded to "google-services" folder inside Service Studio.
+    copyGoogleServiceConfig hook is in charge to copy from the source directory to the root of the plugin folder.
+    -->
+    <resource-file src="google-services.json" target="../../google-services.json" /> 
   </platform>
 
   <platform name="browser">
@@ -125,6 +136,12 @@
     <header-file src="src/ios/PushPlugin.h"/>
 
     <framework src="PushKit.framework"/>
+    
+    <!--
+    Depends on the resource to be uploaded to "google-services" folder inside Service Studio.
+    copyGoogleServiceConfig hook is in charge to copy from the source directory to the root of the plugin folder.
+    -->
+    <resource-file src="GoogleService-Info.plist" target="./GoogleService-Info.plist" />  
 
     <podspec>
       <config>
