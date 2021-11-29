@@ -36,6 +36,9 @@
     "nopt": "^5.0.0",
     "xml2js": "^0.4.23"
   },
+  "dependencies": {
+    "shelljs": "^0.8.3"
+  },
   "engines": {
     "cordovaDependencies": {
       "3.0.0": {
