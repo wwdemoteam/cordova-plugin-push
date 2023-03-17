@@ -64,10 +64,14 @@ module.exports = function (ctx) {
 
       var dirFiles = fs.readdirSync(resourcesFolder);
       var zipFile;
+      console.log('PrefZipFileName');
+      console.log(prefZipFilename);
       dirFiles.forEach(function (file) {
+        console.log('file');
+        console.log(file);
         if (file.match(/\.zip$/)) {
           var filename = path.basename(file, ".zip");
-          if (filename === prefZipFilename)  {
+          if (filename.match(/google-services[_a-zA-Z0-9]*/))  {
             zipFile = path.join(resourcesFolder, file);
           }
         }
