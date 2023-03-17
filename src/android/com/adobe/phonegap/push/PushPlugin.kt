@@ -117,15 +117,12 @@ class PushPlugin : CordovaPlugin() {
               
               key == PushConstants.PUSH_BUNDLE -> {
                 Log.d(TAG, "Push Bundle Sadas") 
-              }
-              
-              key == PushConstants.PUSH_BUNDLE -> {
                 val myTest = extras.getBundle(PushConstants.PUSH_BUNDLE)?.getString(PushConstants.INLINE_REPLY)
                 additionalData.put(key, myTest)
                 Log.d(TAG, "Sadas: $myTest")
                 Log.d(TAG, "Sadas data: $additionalData")
               }
-
+              
               value is String -> {
                 try {
                   // Try to figure out if the value is another JSON object
