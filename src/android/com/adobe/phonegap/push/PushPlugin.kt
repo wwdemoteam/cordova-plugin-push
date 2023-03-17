@@ -120,7 +120,10 @@ class PushPlugin : CordovaPlugin() {
               }
               
               key == PushConstants.PUSH_BUNDLE -> {
-                additionalData.put(key, extras.getBundle(PushConstants.PUSH_BUNDLE)?.getString(PushConstants.INLINE_REPLY))
+                val myTest = extras.getBundle(PushConstants.PUSH_BUNDLE)?.getString(PushConstants.INLINE_REPLY)
+                additionalData.put(key, myTest)
+                Log.d(TAG, "Sadas: $myTest")
+                Log.d(TAG, "Sadas data: $additionalData")
               }
 
               value is String -> {
@@ -143,6 +146,8 @@ class PushPlugin : CordovaPlugin() {
                   additionalData.put(key, value)
                 }
               }
+              
+              Log.d(TAG, "Sadas iteration data: $additionalData")
             }
           }
 
