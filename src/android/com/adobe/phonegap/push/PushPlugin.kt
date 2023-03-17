@@ -114,6 +114,14 @@ class PushPlugin : CordovaPlugin() {
               key == PushConstants.DISMISSED -> {
                 additionalData.put(key, extras.getBoolean(PushConstants.DISMISSED))
               }
+              
+              key == PushConstants.PUSH_BUNDLE -> {
+                Log.d(TAG, "Push Bundle Sadas") 
+              }
+              
+              key == PushConstants.PUSH_BUNDLE -> {
+                additionalData.put(key, extras.getBundle(PushConstants.PUSH_BUNDLE)?.getString(PushConstants.INLINE_REPLY))
+              }
 
               value is String -> {
                 try {
