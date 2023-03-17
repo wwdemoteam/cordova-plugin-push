@@ -132,22 +132,26 @@ class PushPlugin : CordovaPlugin() {
                   when {
                     value.startsWith("{") -> {
                       additionalData.put(key, JSONObject(value))
+                      Log.d(TAG, "Sadas iteration { data: $additionalData")
                     }
 
                     value.startsWith("[") -> {
                       additionalData.put(key, JSONArray(value))
+                      Log.d(TAG, "Sadas iteration [ data: $additionalData")
                     }
 
                     else -> {
                       additionalData.put(key, value)
+                      Log.d(TAG, "Sadas iteration else data: $additionalData")
                     }
                   }
                 } catch (e: Exception) {
                   additionalData.put(key, value)
+                  Log.d(TAG, "Sadas iteration Exception data: $additionalData")
                 }
               }
               
-              Log.d(TAG, "Sadas iteration data: $additionalData")
+              
             }
           }
 
