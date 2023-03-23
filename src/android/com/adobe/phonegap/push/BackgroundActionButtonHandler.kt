@@ -30,7 +30,7 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
       context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
     notificationManager.cancel(FCMService.getAppName(context), notId)
 
-    val bundle = intent.extras.getBundle(PushConstants.PUSH_BUNDLE);
+    val bundle = intent.extras?.getBundle(PushConstants.PUSH_BUNDLE);
 /*
     for (String key : bundle.keySet()) {
         Log.d(TAG, "Sadas bundle " + key + ": " bundle?.get(key));
