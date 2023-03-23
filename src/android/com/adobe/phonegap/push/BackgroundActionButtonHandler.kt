@@ -33,7 +33,7 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
     val bundle = intent.extras.getBundle(PushConstants.PUSH_BUNDLE);
 
     for (String key : bundle.keySet()) {
-        Log.d(TAG, "Sadas bundle " + key + ": " bundle.get(key);
+        Log.d(TAG, "Sadas bundle " + key + ": " bundle.get(key));
     }
     if(intent.extras?.getString("orderId") != null) {
       Log.d(TAG, "Sadas has OrderId: " + intent.extras?.getString("orderId"))
