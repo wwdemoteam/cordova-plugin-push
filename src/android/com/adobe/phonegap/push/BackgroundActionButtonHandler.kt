@@ -31,10 +31,13 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
     notificationManager.cancel(FCMService.getAppName(context), notId)
 
     val bundle = intent.extras.getBundle(PushConstants.PUSH_BUNDLE);
-
+/*
     for (String key : bundle.keySet()) {
-        Log.d(TAG, "Sadas bundle " + key + ": " bundle.get(key));
-    }
+        Log.d(TAG, "Sadas bundle " + key + ": " bundle?.get(key));
+    }*/
+
+    Log.d(TAG, "Sadas bundle: " + bundle.toString())
+
     if(intent.extras?.getString("orderId") != null) {
       Log.d(TAG, "Sadas has OrderId: " + intent.extras?.getString("orderId"))
     }
