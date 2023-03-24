@@ -63,7 +63,7 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
     var channelID: String? = null
 
     if (extras != null) {
-      channelID = intent.extras.getString(PushConstants.ANDROID_CHANNEL_ID)
+      channelID = intent.extras?.getString(PushConstants.ANDROID_CHANNEL_ID)
     }
 
       // if the push payload specifies a channel use it
@@ -77,6 +77,7 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
       } else {
         PushConstants.DEFAULT_CHANNEL_ID
       }
+    }
 
     @SuppressLint ("RestrictedApi")
     fun NotificationCompat.Builder.clearActions () {
