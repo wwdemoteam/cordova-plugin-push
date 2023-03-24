@@ -60,8 +60,8 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
       mSomeFunction(notificationManager, intent.extras, notId, context)
     }, 500)*/
 
-    var channelID: String = null
-
+    var channelID: String = "PushPluginChannel"
+/*
     if (intent.extras != null) {
       channelID = intent.extras?.getString(PushConstants.ANDROID_CHANNEL_ID)
     }
@@ -77,7 +77,7 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
       } else {
         PushConstants.DEFAULT_CHANNEL_ID
       }
-    }
+    }*/
 
     @SuppressLint ("RestrictedApi")
     fun NotificationCompat.Builder.clearActions () {
