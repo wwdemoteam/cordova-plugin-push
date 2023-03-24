@@ -117,10 +117,26 @@ class PushPlugin : CordovaPlugin() {
               
               key == PushConstants.PUSH_BUNDLE -> {
                 Log.d(TAG, "Push Bundle Sadas") 
-                val myTest = extras.getBundle(PushConstants.PUSH_BUNDLE)?.getString(PushConstants.INLINE_REPLY)
-                additionalData.put(key, myTest)
+                val myTest = extras.getBundle(PushConstants.INLINE_REPLY)?.getString(PushConstants.INLINE_REPLY)
+                additionalData.put(PushConstants.INLINE_REPLY, myTest)
                 Log.d(TAG, "Sadas: $myTest")
                 Log.d(TAG, "Sadas data: $additionalData")
+                if(extras.getBundle(PushConstants.PUSH_BUNDLE)?.getString(PushConstants.ACTION_CALLBACK) != null) {
+                  Log.d(TAG,"Sadas has callback")
+                  additionalData.put(PushConstants.ACTION_CALLBACK, extras.getBundle(PushConstants.PUSH_BUNDLE)?.getString(PushConstants.ACTION_CALLBACK))
+                }
+                if(extras.getBundle(PushConstants.PUSH_BUNDLE)?.getBoolean(PushConstants.COLDSTART) != null) {
+                  Log.d(TAG,"Sadas has coldstart")
+                  additionalData.put(PushConstants.COLDSTART, extras.getBundle(PushConstants.PUSH_BUNDLE)?.getBoolean(PushConstants.COLDSTART))
+                }
+                if(extras?.getBundle(PushConstants.PUSH_BUNDLE)?.getString("OrderId") != null) {
+                  Log.d(TAG,"Sadas has QuoteId")
+                  additionalData.put("OrderId", extras?.getBundle(PushConstants.PUSH_BUNDLE)?.getString("OrderId"))
+                }
+                else {
+                  Log.d(TAG, "Sadas no QuoteId") 
+                }
+                additionalData.put(PushConstants.FOREGROUND, false)
               }
               
               value is String -> {
