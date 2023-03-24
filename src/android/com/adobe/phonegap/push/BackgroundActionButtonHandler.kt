@@ -11,6 +11,7 @@ import androidx.core.app.RemoteInput
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import androidx.core.app.NotificationCompat
 
 /**
  * Background Action Button Handler
@@ -30,7 +31,8 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
   private fun mSomeFunction(notManager: NotificationManager, extras: Bundle?, notId: Int, context: Context) {
 	  /*val notManager =
       context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager*/
-	  FCMService().createNotification(extras)
+
+	  //FCMService().createNotification(extras)
     notManager.cancel(FCMService.getAppName(context), notId)
   }
 
@@ -53,10 +55,38 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
     if(intent.extras?.getString("OrderId") != null) {
       Log.d(TAG, "Sadas has OrderId: " + intent.extras?.getString("OrderId"))
     }
-
+    /*
     Handler(Looper.getMainLooper()).postDelayed({
       mSomeFunction(notificationManager, intent.extras, notId, context)
-    }, 500)
+    }, 500)*/
+
+    var channelID: String? = null
+
+    if (extras != null) {
+      channelID = intent.extras.getString(PushConstants.ANDROID_CHANNEL_ID)
+    }
+
+      // if the push payload specifies a channel use it
+    else if (channelID != null) {
+        NotificationCompat.Builder(context, channelID)
+      } else {
+        val channels = notificationManager.notificationChannels
+
+        channelID = if (channels.size == 1) {
+        channels[0].id.toString()
+      } else {
+        PushConstants.DEFAULT_CHANNEL_ID
+      }
+
+    @SuppressLint ("RestrictedApi")
+    fun NotificationCompat.Builder.clearActions () {
+        mActions.clear()
+    }
+
+      Log.d(TAG, "Using channel ID = $channelID")
+      val mBuilder: NotificationCompat.Builder =  NotificationCompat.Builder(context, channelID)
+
+      mBuilder.clearActions()
 
     intent.extras?.let { extras ->
       Log.d(TAG, "Intent Extras: $extras")
