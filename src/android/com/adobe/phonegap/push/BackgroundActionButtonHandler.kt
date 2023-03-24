@@ -8,6 +8,7 @@ import android.content.Intent
 import android.util.Log
 import androidx.core.app.RemoteInput
 
+import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 
@@ -26,10 +27,10 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
    * @param intent
    */
 
-  private fun mSomeFunction(notManager: NotificationManager, extras: Bundle?, notId: Int) {
+  private fun mSomeFunction(notManager: NotificationManager, extras: Bundle?, notId: Int, context: Context) {
 	  /*val notManager =
       context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager*/
-	  FCMService.createNotification(extras)
+	  FCMService().createNotification(extras)
     notManager.cancel(FCMService.getAppName(context), notId)
   }
 
@@ -54,8 +55,8 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
     }
 
     Handler(Looper.getMainLooper()).postDelayed({
-      mSomeFunction(notificationManager, intent.extras, notId)
-    }, mDelay)
+      mSomeFunction(notificationManager, intent.extras, notId, context)
+    }, 500)
 
     intent.extras?.let { extras ->
       Log.d(TAG, "Intent Extras: $extras")
