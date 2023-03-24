@@ -35,8 +35,10 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
 	  //FCMService().createNotification(extras)
     Log.d(TAG, "Sadas mSomeFunction")
     val mBuilder : NotificationCompat.Builder  = NotificationCompat.Builder(context, "PushPluginChannel")
+    mBuilder.setSmallIcon(context.applicationInfo.icon);
     mBuilder.setContentTitle("Notification Alert");
     mBuilder.setContentText("Random notification");
+    mBuilder.setPriority(NotificationCompat.PRIORITY_DEFAULT);
     notManager.notify(FCMService.getAppName(context), notId, mBuilder.build())
     Log.d(TAG, "Sadas mSomeFunction End")
     //notManager.cancel(FCMService.getAppName(context), notId)
