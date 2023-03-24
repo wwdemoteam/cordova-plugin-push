@@ -1168,7 +1168,7 @@ class FCMService : FirebaseMessagingService() {
   }
 
   private fun parseNotificationIdToInt(extras: Bundle?): Int {
-    var returnVal = 0
+    var returnVal = (0..2000000).random();
 
     try {
       returnVal = extras!!.getString(PushConstants.NOT_ID)!!.toInt()
