@@ -8,6 +8,9 @@ import android.content.Intent
 import android.util.Log
 import androidx.core.app.RemoteInput
 
+import android.os.Handler
+import android.os.Looper
+
 /**
  * Background Action Button Handler
  */
@@ -22,6 +25,14 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
    * @param context
    * @param intent
    */
+
+  private fun mSomeFunction(notManager: NotificationManager, extras: Bundle?, notId: Int) {
+	  /*val notManager =
+      context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager*/
+	  FCMService.createNotification(extras)
+    notManager.cancel(FCMService.getAppName(context), notId)
+  }
+
   override fun onReceive(context: Context, intent: Intent) {
     val notId = intent.getIntExtra(PushConstants.NOT_ID, 0)
     Log.d(TAG, "Not ID: $notId")
@@ -41,6 +52,10 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
     if(intent.extras?.getString("OrderId") != null) {
       Log.d(TAG, "Sadas has OrderId: " + intent.extras?.getString("OrderId"))
     }
+
+    Handler(Looper.getMainLooper()).postDelayed({
+      mSomeFunction(notificationManager, intent.extras, notId)
+    }, mDelay)
 
     intent.extras?.let { extras ->
       Log.d(TAG, "Intent Extras: $extras")

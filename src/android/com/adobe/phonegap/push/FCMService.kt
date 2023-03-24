@@ -831,8 +831,7 @@ class FCMService : FirebaseMessagingService() {
 
   private fun setNotificationOngoing(extras: Bundle?, mBuilder: NotificationCompat.Builder) {
     extras?.getString(PushConstants.ONGOING, "false")?.let {
-      //mBuilder.setOngoing(it.toBoolean())
-      mBuilder.setOngoing(true)
+      mBuilder.setOngoing(it.toBoolean())
     }
   }
 
