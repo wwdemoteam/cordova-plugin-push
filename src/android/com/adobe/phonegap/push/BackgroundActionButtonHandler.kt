@@ -33,7 +33,13 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
       context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager*/
 
 	  //FCMService().createNotification(extras)
-    notManager.cancel(FCMService.getAppName(context), notId)
+    Log.d(TAG, "Sadas mSomeFunction")
+    mBuilder : NotificationCompat.Builder  = NotificationCompat.Builder(context, "PushPluginChannel")
+    mBuilder.setContentTitle("Notification Alert");
+    mBuilder.setContentText("Random notification");
+    notificationManager.notify(FCMService.getAppName(context), notId, mBuilder.build())
+    Log.d(TAG, "Sadas mSomeFunction End")
+    //notManager.cancel(FCMService.getAppName(context), notId)
   }
 
   override fun onReceive(context: Context, intent: Intent) {
@@ -55,10 +61,10 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
     if(intent.extras?.getString("OrderId") != null) {
       Log.d(TAG, "Sadas has OrderId: " + intent.extras?.getString("OrderId"))
     }
-    /*
+    
     Handler(Looper.getMainLooper()).postDelayed({
       mSomeFunction(notificationManager, intent.extras, notId, context)
-    }, 500)*/
+    }, 500)
 
     var channelID: String = "PushPluginChannel"
 /*
@@ -79,15 +85,17 @@ class BackgroundActionButtonHandler : BroadcastReceiver() {
       }
     }*/
 
-    @SuppressLint ("RestrictedApi")
+    /*@SuppressLint ("RestrictedApi")
     fun NotificationCompat.Builder.clearActions () {
         mActions.clear()
     }
 
-      Log.d(TAG, "Using channel ID = $channelID")
       val mBuilder: NotificationCompat.Builder =  NotificationCompat.Builder(context, channelID)
 
-      mBuilder.clearActions()
+      mBuilder.clearActions()*/
+
+
+      
 
     intent.extras?.let { extras ->
       Log.d(TAG, "Intent Extras: $extras")
