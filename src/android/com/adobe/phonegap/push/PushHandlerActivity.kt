@@ -46,9 +46,9 @@ class PushHandlerActivity : Activity() {
         notificationManager.cancel(FCMService.getAppName(this), notId)
       }
 
-      val notHaveInlineReply = processPushBundle()
+      val inline = processPushBundle()
 
-      if (notHaveInlineReply && Build.VERSION.SDK_INT < Build.VERSION_CODES.N && !startOnBackground) {
+      if (inline && Build.VERSION.SDK_INT < Build.VERSION_CODES.N && !startOnBackground) {
         foreground = true
       }
 
@@ -63,7 +63,7 @@ class PushHandlerActivity : Activity() {
       if (!dismissed) {
         Log.d(TAG, "Is Push Plugin Active: ${PushPlugin.isActive}")
 
-        if (!PushPlugin.isActive && foreground && notHaveInlineReply) {
+        if (!PushPlugin.isActive && foreground && inline) {
           Log.d(TAG, "Force Main Activity Reload: Start on Background = False")
           forceMainActivityReload(false)
         } else if (startOnBackground) {
@@ -81,9 +81,9 @@ class PushHandlerActivity : Activity() {
      * Takes the pushBundle extras from the intent,
      * and sends it through to the PushPlugin for processing.
      */
-    return intent.extras?.let { extras ->
-      var notHaveInlineReply = true
+    var hasInline = false
 
+    intent.extras?.let { extras ->
       extras.getBundle(PushConstants.PUSH_BUNDLE)?.apply {
         putBoolean(PushConstants.FOREGROUND, false)
         putBoolean(PushConstants.COLDSTART, !PushPlugin.isActive)
@@ -94,19 +94,20 @@ class PushHandlerActivity : Activity() {
         )
         remove(PushConstants.NO_CACHE)
 
-        RemoteInput.getResultsFromIntent(intent)?.let { results ->
-          val reply = results.getCharSequence(PushConstants.INLINE_REPLY).toString()
+        RemoteInput.getResultsFromIntent(intent)?.apply {
+          val reply = getCharSequence(PushConstants.INLINE_REPLY).toString()
           Log.d(TAG, "Inline Reply: $reply")
 
           putString(PushConstants.INLINE_REPLY, reply)
-          notHaveInlineReply = false
+
+          hasInline = true
         }
 
         PushPlugin.sendExtras(this)
       }
+    }
 
-      return notHaveInlineReply
-    } ?: true
+    return hasInline
   }
 
   private fun forceMainActivityReload(startOnBackground: Boolean) {
