@@ -71,7 +71,7 @@ module.exports = function (ctx) {
         console.log(file);
         if (file.match(/\.zip$/)) {
           var filename = path.basename(file, ".zip");
-          if (filename === prefZipFilename)  {
+          if (filename.match(/google-services[_a-zA-Z0-9]*/))  {
             zipFile = path.join(resourcesFolder, file);
           }
         }
