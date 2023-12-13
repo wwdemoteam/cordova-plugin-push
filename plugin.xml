@@ -67,11 +67,12 @@
       <preference name="GradlePluginGoogleServicesVersion" value="4.3.15" />
 
       <preference name="GradlePluginKotlinEnabled" value="true" />
-      <preference name="GradlePluginKotlinVersion" value="1.7.21" />
+      <preference name="GradlePluginKotlinVersion" value="1.9.1" />
     </config-file>
 
     <preference name="ANDROIDX_CORE_VERSION" default="1.6.+"/>
     <preference name="FCM_VERSION" default="23.+"/>
+    <preference name="android-targetSdkVersion" value="34" />
 
     <framework src="androidx.core:core:$ANDROIDX_CORE_VERSION" />
     <framework src="me.leolin:ShortcutBadger:1.1.22@aar"/>
