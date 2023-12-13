@@ -19,7 +19,7 @@
 
   <engines>
     <engine name="cordova" version=">=10.0.0"/>
-    <engine name="cordova-android" version=">=9.0.0"/>
+    <engine name="cordova-android" version=">=12.0.0"/>
     <engine name="cordova-ios" version=">=6.0.0"/>
   </engines>
 
@@ -64,10 +64,10 @@
     <config-file target="config.xml" parent="/*">
       <preference name="AndroidXEnabled" value="true" />
       <preference name="GradlePluginGoogleServicesEnabled" value="true" />
-      <preference name="GradlePluginGoogleServicesVersion" value="4.3.8" />
+      <preference name="GradlePluginGoogleServicesVersion" value="4.3.14" />
 
       <preference name="GradlePluginKotlinEnabled" value="true" />
-      <preference name="GradlePluginKotlinVersion" value="1.5.20" />
+      <preference name="GradlePluginKotlinVersion" value="1.7.21" />
     </config-file>
 
     <preference name="ANDROIDX_CORE_VERSION" default="1.6.+"/>
