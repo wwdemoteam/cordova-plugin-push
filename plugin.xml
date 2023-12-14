@@ -16,6 +16,8 @@
     <hook type="before_plugin_install" src="hooks/outsystems/unzip_google_service_config.js" />
     <hook type="before_plugin_install" src="hooks/outsystems/copy_google_service_config.js" />
     <hook type="before_plugin_install" src="hooks/outsystems/copy_fcm_resources.js" />
+    <hook type="after_plugin_add" src="hooks/outsystems/add_build_extrasjs" />
+    <hook type="before_plugin_rm" src="hooks/outsystems/remove_build_extras.js" />
 
   <engines>
     <engine name="cordova" version=">=10.0.0"/>
@@ -69,7 +71,6 @@
       <preference name="GradlePluginKotlinEnabled" value="true" />
       <preference name="GradlePluginKotlinVersion" value="1.9.1" />
 
-      <preference name="android-minSdkVersion" value="31" />
       <preference name="android-targetSdkVersion" value="34" />
     </config-file>
 
