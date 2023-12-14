@@ -71,7 +71,7 @@
       <preference name="GradlePluginKotlinEnabled" value="true" />
       <preference name="GradlePluginKotlinVersion" value="1.9.1" />
 
-      <preference name="android-targetSdkVersion" value="34" />
+      
     </config-file>
 
     <preference name="ANDROIDX_CORE_VERSION" default="1.6.+"/>
