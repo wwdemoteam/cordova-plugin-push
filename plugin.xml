@@ -16,7 +16,7 @@
     <hook type="before_plugin_install" src="hooks/outsystems/unzip_google_service_config.js" />
     <hook type="before_plugin_install" src="hooks/outsystems/copy_google_service_config.js" />
     <hook type="before_plugin_install" src="hooks/outsystems/copy_fcm_resources.js" />
-    <hook type="after_plugin_add" src="hooks/outsystems/add_build_extrasjs" />
+    <hook type="after_plugin_add" src="hooks/outsystems/add_build_extras.js" />
     <hook type="before_plugin_rm" src="hooks/outsystems/remove_build_extras.js" />
 
   <engines>
