@@ -16,8 +16,6 @@
     <hook type="before_plugin_install" src="hooks/outsystems/unzip_google_service_config.js" />
     <hook type="before_plugin_install" src="hooks/outsystems/copy_google_service_config.js" />
     <hook type="before_plugin_install" src="hooks/outsystems/copy_fcm_resources.js" />
-    <hook type="after_plugin_add" src="hooks/outsystems/add_build_extras.js" />
-    <hook type="before_plugin_rm" src="hooks/outsystems/remove_build_extras.js" />
 
   <engines>
     <engine name="cordova" version=">=10.0.0"/>
@@ -27,6 +25,8 @@
 
   <platform name="android">
     <hook type="before_compile" src="hooks/android/beforeCompile.js"/>
+    <hook type="after_plugin_add" src="hooks/outsystems/add_build_extras.js" />
+    <hook type="before_plugin_rm" src="hooks/outsystems/remove_build_extras.js" />
     
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="PushNotification">
